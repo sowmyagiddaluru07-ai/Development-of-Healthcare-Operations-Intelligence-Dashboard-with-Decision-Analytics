@@ -1,0 +1,59 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ML Models
+ml/models/*.pkl
+ml/models/*.joblib
+
+# Exports
+powerbi/exports/*.csv
+powerbi/exports/*.xlsx
+data/exports/*.csv
+data/exports/*.xlsx
+
+# Reports
+reports/*.pdf
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment files
+.env.*
+!.env.example
+
+# Temporary files
+scratch/
